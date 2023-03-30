@@ -8,7 +8,7 @@ import Subotica from '~/images/subotica.jpg';
 const links = [
   { href: '/privatni-casovi', label: 'Privatni časovi' },
   { href: '/kursevi', label: 'Kursevi' },
-  { href: '/', label: 'O nama' },
+  { href: '/o-nama', label: 'O nama' },
   { href: '/', label: 'Kontakt' },
 ];
 

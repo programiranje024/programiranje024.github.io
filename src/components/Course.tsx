@@ -33,7 +33,7 @@ const Course = ({
         <p className='text-gray-500'>Trajanje: {duration}</p>
         <p className='text-gray-500'>Cena po osobi: {price} RSD</p>
         <p className='text-gray-500'>Broj učesnika: {members}</p>
-        <p className='mt-3 max-w-xl text-left'>{description}</p>
+        <div className='mt-3 max-w-xl text-left'>{description}</div>
       </div>
     </div>
   );
