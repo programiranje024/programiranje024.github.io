@@ -115,7 +115,7 @@ export default function Themes() {
         upoznati.
       </p>
 
-      <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3'>
+      <div className='grid grid-cols-3 gap-4 sm:grid-cols-2 lg:grid-cols-3'>
         <TechRow title='Drupal (PHP)' src={Drupal} alt='Drupal' />
         <TechRow title='React (JS)' src={React} alt='React' />
         <TechRow title='Next.js (JS)' src={NextJs} alt='Next.js' />
@@ -134,7 +134,7 @@ export default function Themes() {
         Za ove teme nije potrebno imati nikakvo predznanje.
       </p>
 
-      <div className='grid grid-cols-1 gap-4 sm:grid-cols-3 lg:grid-cols-4'>
+      <div className='grid grid-cols-3 gap-4 lg:grid-cols-4'>
         <TechRow title='Git' src={Git} alt='Git' isBeginnerFriendly />
         <TechRow title='Linux' src={Linux} alt='Linux' isBeginnerFriendly />
         <TechRow title='Docker' src={Docker} alt='Docker' isBeginnerFriendly />
