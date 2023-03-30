@@ -48,7 +48,7 @@ export default function ContactPage() {
                 imate bilo kakvih pitanja, slobodno nas kontaktirajte.
               </p>
 
-              <form className='mt-4' onSubmit={onSubmit}>
+              <form className='mt-4 w-full' onSubmit={onSubmit}>
                 <div className='flex flex-col gap-4'>
                   <div className='flex flex-col gap-2'>
                     <label htmlFor='name'>Ime i prezime</label>
@@ -90,10 +90,15 @@ export default function ContactPage() {
                       name='message'
                       className='rounded-md border border-gray-300 p-2'
                       placeholder='Vaša poruka'
+                      rows={5}
                       required
                     />
                   </div>
-                  <Button type='submit' disabled={isSubmitting}>
+                  <Button
+                    type='submit'
+                    disabled={isSubmitting}
+                    className='block text-center disabled:opacity-50'
+                  >
                     Pošalji
                   </Button>
                 </div>
