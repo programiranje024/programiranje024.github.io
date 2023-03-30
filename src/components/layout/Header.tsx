@@ -6,8 +6,8 @@ import NextImage from '@/components/NextImage';
 import Subotica from '~/images/subotica.jpg';
 
 const links = [
-  { href: '/', label: 'Privatni časovi' },
-  { href: '/', label: 'Kursevi' },
+  { href: '/privatni-casovi', label: 'Privatni časovi' },
+  { href: '/kursevi', label: 'Kursevi' },
   { href: '/', label: 'O nama' },
   { href: '/', label: 'Kontakt' },
 ];
