@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { RiAlarmWarningFill } from 'react-icons/ri';
 
 import Layout from '@/components/layout/Layout';
@@ -17,9 +16,11 @@ export default function NotFoundPage() {
               size={60}
               className='drop-shadow-glow animate-flicker text-red-500'
             />
-            <h1 className='mt-8 text-4xl md:text-6xl'>Page Not Found</h1>
+            <h1 className='mt-8 text-4xl md:text-6xl'>
+              Stranica nije pronađena
+            </h1>
             <ArrowLink className='mt-4 md:text-lg' href='/'>
-              Back to Home
+              Povratak na početnu stranu
             </ArrowLink>
           </div>
         </section>
