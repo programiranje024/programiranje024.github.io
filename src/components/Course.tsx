@@ -24,7 +24,7 @@ const Course = ({
 }: CourseProps) => {
   return (
     <div className='mt-4 grid grid-cols-1 gap-4 rounded-md shadow md:grid-cols-2'>
-      <div className='flex justify-center'>
+      <div className='flex items-center justify-center'>
         <NextImage src={image} alt={title} width={512} height={512} />
       </div>
       <div className='flex flex-col items-start gap-1 rounded-md bg-white p-4'>
