@@ -5167,6 +5167,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hamburger-react@npm:^2.5.0":
+  version: 2.5.0
+  resolution: "hamburger-react@npm:2.5.0"
+  peerDependencies:
+    react: ^16.8 || ^17 || ^18
+  checksum: 5c3835a1b271fd50f5fcc600d55d0dc296cb05c2eed5ec4bf6386c3da6f5b33a370f6ff5b81ebe97f29beb41cc37f5f5d4c5ff958507435e6561a15c8f7e3562
+  languageName: node
+  linkType: hard
+
 "hard-rejection@npm:^2.1.0":
   version: 2.1.0
   resolution: "hard-rejection@npm:2.1.0"
@@ -8842,6 +8851,7 @@ __metadata:
     eslint-config-prettier: ^8.8.0
     eslint-plugin-simple-import-sort: ^7.0.0
     eslint-plugin-unused-imports: ^2.0.0
+    hamburger-react: ^2.5.0
     husky: ^7.0.4
     jest: ^27.5.1
     lint-staged: ^12.5.0
@@ -8858,6 +8868,7 @@ __metadata:
     tailwind-merge: ^1.10.0
     tailwindcss: ^3.2.7
     typescript: ^4.9.5
+    usehooks-ts: ^2.9.1
   languageName: unknown
   linkType: soft
 
@@ -9120,6 +9131,16 @@ __metadata:
   dependencies:
     punycode: ^2.1.0
   checksum: 7167432de6817fe8e9e0c9684f1d2de2bb688c94388f7569f7dbdb1587c9f4ca2a77962f134ec90be0cc4d004c939ff0d05acc9f34a0db39a3c797dada262633
+  languageName: node
+  linkType: hard
+
+"usehooks-ts@npm:^2.9.1":
+  version: 2.9.1
+  resolution: "usehooks-ts@npm:2.9.1"
+  peerDependencies:
+    react: ^16.8.0  || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0  || ^17.0.0 || ^18.0.0
+  checksum: 36f1e4142ce23bc019b81d2e93aefd7f2c350abcf255598c21627114a69a2f2f116b35dc3a353375f09c6e4c9b704a04f104e3d10e98280545c097feca66c30a
   languageName: node
   linkType: hard
 
