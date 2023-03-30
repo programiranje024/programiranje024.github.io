@@ -57,6 +57,7 @@ export default function ContactPage() {
                       id='name'
                       name='name'
                       className='rounded-md border border-gray-300 p-2'
+                      placeholder='Vaše ime i prezime'
                       required
                     />
                   </div>
@@ -67,6 +68,7 @@ export default function ContactPage() {
                       id='email'
                       name='email'
                       className='rounded-md border border-gray-300 p-2'
+                      placeholder='Vaš email'
                       required
                     />
                   </div>
@@ -77,6 +79,7 @@ export default function ContactPage() {
                       id='phone'
                       name='phone'
                       className='rounded-md border border-gray-300 p-2'
+                      placeholder='Vaš broj telefona'
                       required
                     />
                   </div>
@@ -86,6 +89,7 @@ export default function ContactPage() {
                       id='message'
                       name='message'
                       className='rounded-md border border-gray-300 p-2'
+                      placeholder='Vaša poruka'
                       required
                     />
                   </div>
