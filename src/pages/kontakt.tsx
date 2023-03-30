@@ -56,8 +56,9 @@ export default function ContactPage() {
                       type='text'
                       id='name'
                       name='name'
-                      className='rounded-md border border-gray-300 p-2'
+                      className='rounded-md border border-gray-300 p-2 disabled:opacity-50'
                       placeholder='Vaše ime i prezime'
+                      readOnly={isSubmitting}
                       required
                     />
                   </div>
@@ -67,8 +68,9 @@ export default function ContactPage() {
                       type='email'
                       id='email'
                       name='email'
-                      className='rounded-md border border-gray-300 p-2'
+                      className='rounded-md border border-gray-300 p-2 disabled:opacity-50'
                       placeholder='Vaš email'
+                      readOnly={isSubmitting}
                       required
                     />
                   </div>
@@ -78,8 +80,9 @@ export default function ContactPage() {
                       type='tel'
                       id='phone'
                       name='phone'
-                      className='rounded-md border border-gray-300 p-2'
+                      className='rounded-md border border-gray-300 p-2 disabled:opacity-50'
                       placeholder='Vaš broj telefona'
+                      readOnly={isSubmitting}
                       required
                     />
                   </div>
@@ -88,9 +91,10 @@ export default function ContactPage() {
                     <textarea
                       id='message'
                       name='message'
-                      className='rounded-md border border-gray-300 p-2'
+                      className='rounded-md border border-gray-300 p-2 disabled:opacity-50'
                       placeholder='Vaša poruka'
                       rows={5}
+                      readOnly={isSubmitting}
                       required
                     />
                   </div>
