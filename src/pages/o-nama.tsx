@@ -9,7 +9,7 @@ import Seo from '@/components/Seo';
 export default function AboutUsPage() {
   return (
     <Layout>
-      <Seo />
+      <Seo templateTitle='O nama' />
 
       <main className={classes.main}>
         <Header />

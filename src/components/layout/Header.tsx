@@ -9,7 +9,7 @@ const links = [
   { href: '/privatni-casovi', label: 'Privatni časovi' },
   { href: '/kursevi', label: 'Kursevi' },
   { href: '/o-nama', label: 'O nama' },
-  { href: '/', label: 'Kontakt' },
+  { href: '/kontakt', label: 'Kontakt' },
 ];
 
 export default function Header() {
