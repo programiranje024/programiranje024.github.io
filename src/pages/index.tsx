@@ -9,7 +9,7 @@ import Seo from '@/components/Seo';
 export default function HomePage() {
   return (
     <Layout>
-      <Seo title='Programiranje Subotica 024' />
+      <Seo />
 
       <main className={classes.main}>
         <Header />
