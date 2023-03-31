@@ -45,7 +45,7 @@ export default function Header() {
 
           <ul
             className={clsx('flex items-center justify-between space-x-4 p-2', {
-              hidden: !isOpen,
+              hidden: !isOpen && isMobile,
               'w-30 absolute top-14 right-0 rounded-bl-md bg-white shadow-md':
                 isOpen && isMobile,
             })}

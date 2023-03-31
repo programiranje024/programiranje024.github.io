@@ -62,7 +62,7 @@ export default function CoursesPage() {
                   </p>
                   <p>
                     Učesnici će takođe biti upoznati sa raznim CSS
-                    framework-cima kao što je Tailwind.
+                    framework-ovima kao što je Tailwind.
                   </p>
                 </>
               }
@@ -87,7 +87,7 @@ export default function CoursesPage() {
                   </p>
                   <p>
                     Ovaj kurs obuhvata ratvoj RESTful API-ja ali će se dotaći i
-                    GraphQL-a.
+                    GraphQL API-ja (u NestJS).
                   </p>
                 </>
               }
@@ -113,7 +113,8 @@ export default function CoursesPage() {
                   </p>
                   <p>
                     Ovaj kurs je idealan sledeći korak za učesnike koji su
-                    pohađali "Osnove HTML5, CSS3 i JavaScript-a".
+                    pohađali "Osnove HTML5, CSS3 i JavaScript-a" ili "Razvoj API
+                    servisa sa NestJS".
                   </p>
                 </>
               }
@@ -125,7 +126,7 @@ export default function CoursesPage() {
 
             <h2 className='mt-8 text-2xl'>Kako se prijaviti?</h2>
             <p className='mt-2 text-sm text-gray-800'>
-              Da bi se prijavili za neki od kurseva, potrebno je da nas
+              Da bi ste se prijavili za neki od kurseva, potrebno je da nas
               kontaktirate putem{' '}
               <UnderlineLink href='/kontakt'>kontakt forme</UnderlineLink>.
             </p>

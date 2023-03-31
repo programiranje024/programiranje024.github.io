@@ -20,23 +20,23 @@ export default function AboutUsPage() {
               <p className='mt-2 text-sm text-gray-800'>
                 Iako smo mlad tim, naša misija je da pomognemo svima koji žele
                 da nauče programiranje. Naša vizija je da postanemo jedan od
-                najboljih centara za programiranje u Srbiji.
+                najboljih centara za edukaciju vezanu za programiranje u Srbiji.
               </p>
 
               <p className='mt-8 text-sm text-gray-800'>
                 Naši instruktori su profesionalci koji su već godinama u
-                programiranju i koji su učestvovali u razvoju mnogih aplikacija,
+                industriji i koji su učestvovali u razvoju mnogih aplikacija,
                 web stranica i ostalih projekata.
               </p>
 
               <p className='mt-8 text-sm text-gray-800'>
                 Cilj nam je da pružimo kvalitetan program za učenje
                 programiranja i da svakom učesniku pružimo podršku i savete
-                tokom njegovog putovanja kroz programiranje.
+                tokom njegovog putovanja kroz svet programiranja.
               </p>
 
               <p className='mt-8 text-sm text-gray-800'>
-                Ukoliko ste zainteresovani za naše programe, slobodno nas
+                Ukoliko ste zainteresovani za naše usluge, slobodno nas
                 kontaktirajte i započnite svoj put ka postizanju vaših ciljeva!
               </p>
 
