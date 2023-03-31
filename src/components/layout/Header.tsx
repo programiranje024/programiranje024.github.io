@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import { Turn } from 'hamburger-react';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useMediaQuery } from 'usehooks-ts';
 
 import UnstyledLink from '@/components/links/UnstyledLink';
@@ -19,6 +19,21 @@ const links = [
 export default function Header() {
   const [isOpen, setOpen] = useState(false);
   const isMobile = useMediaQuery('(max-width: 768px)');
+  const navRef = useRef<HTMLUListElement>(null);
+
+  useEffect(() => {
+    const nav = navRef.current;
+    if (!nav) {
+      return;
+    }
+
+    if (isOpen || !isMobile) {
+      nav.classList.remove('hidden');
+      return;
+    }
+
+    nav.classList.add('hidden');
+  }, [isMobile, isOpen, navRef]);
 
   return (
     <header className='sticky top-0 z-50 bg-white shadow-md'>
@@ -42,10 +57,9 @@ export default function Header() {
           <div className='md:hidden'>
             <Turn toggled={isOpen} toggle={setOpen} color='#000' />
           </div>
-
           <ul
+            ref={navRef}
             className={clsx('flex items-center justify-between space-x-4 p-2', {
-              hidden: !isOpen && isMobile,
               'w-30 absolute top-14 right-0 rounded-bl-md bg-white shadow-md':
                 isOpen && isMobile,
             })}
