@@ -23,7 +23,13 @@ const TechRow = ({
         { border: isBeginnerFriendly, 'border-yellow-500': isBeginnerFriendly }
       )}
     >
-      <NextImage src={src} alt={alt} width={128} height={128} />
+      <NextImage
+        src={src}
+        alt={alt}
+        width={128}
+        height={128}
+        className='max-w-full'
+      />
       <h4 className='mt-1 text-center'>{title}</h4>
     </div>
   );
