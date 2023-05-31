@@ -54,7 +54,7 @@ export default function Themes() {
           className='rounded'
         />
 
-        <h3 className='mt-8 mb-1'>Programski jezici</h3>
+        <h3 className='mb-1 mt-8'>Programski jezici</h3>
         <p className='mb-1'>
           Nudimo različite programski jezike, a sve zavisi od toga šta želite da
           naučite.
@@ -100,7 +100,7 @@ export default function Themes() {
         </div>
       </div>
 
-      <h3 className='mt-8 mb-1'>Framework-ovi i CMS-ovi</h3>
+      <h3 className='mb-1 mt-8'>Framework-ovi i CMS-ovi</h3>
       <p className='mb-4'>
         Osim samih jezika, nudimo i različite framework-ove i CMS-ove koji se
         koriste u industriji za raznovrsne svrhe.
@@ -125,7 +125,7 @@ export default function Themes() {
         <TechRow title='Phoenix (Elixir)' src={Phoenix} alt='Phoenix' />
       </div>
 
-      <h3 className='mt-8 mb-1'>Ostale teme</h3>
+      <h3 className='mb-1 mt-8'>Ostale teme</h3>
       <p className='mb-4'>
         Ostale teme obuhvataju različite tehnologije koje se koriste u
         industriji, a koje su neophodne za razvoj sofvera.

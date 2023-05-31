@@ -12,6 +12,7 @@ import Subotica from '~/images/subotica.jpg';
 const links = [
   { href: '/privatni-casovi', label: 'Privatni časovi' },
   { href: '/kursevi', label: 'Kursevi' },
+  { href: '/recenzije', label: 'Recenzije' },
   { href: '/o-nama', label: 'O nama' },
   { href: '/kontakt', label: 'Kontakt' },
 ];
@@ -59,10 +60,13 @@ export default function Header() {
           </div>
           <ul
             ref={navRef}
-            className={clsx('flex items-center justify-between space-x-4 p-2', {
-              'w-30 absolute top-14 right-0 rounded-bl-md bg-white shadow-md':
-                isOpen && isMobile,
-            })}
+            className={clsx(
+              'flex flex-col items-center justify-between space-x-4 p-2 md:flex-row',
+              {
+                'w-30 absolute right-0 top-14 rounded-bl-md bg-white shadow-md':
+                  isOpen && isMobile,
+              }
+            )}
           >
             {links.map(({ href, label }) => (
               <li key={`${href}${label}`}>
