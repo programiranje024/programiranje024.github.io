@@ -117,7 +117,7 @@ export default function Themes() {
 
       <div className='grid grid-cols-3 gap-4 sm:grid-cols-2 lg:grid-cols-3'>
         <TechRow title='Drupal (PHP)' src={Drupal} alt='Drupal' />
-        <TechRow title='React (JS)' src={React} alt='React' />
+        <TechRow title='React / React Native (JS)' src={React} alt='React' />
         <TechRow title='Next.js (JS)' src={NextJs} alt='Next.js' />
 
         <TechRow title='Laravel (PHP)' src={Laravel} alt='Laravel' />
