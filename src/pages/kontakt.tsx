@@ -39,7 +39,7 @@ export default function ContactPage() {
       <main>
         <Header />
         <section>
-          <div className='layout relative flex min-h-screen flex-col items-center justify-center py-12 text-center'>
+          <div className='layout page-section relative flex flex-col items-center justify-center py-12 text-center'>
             <div className='flex max-w-2xl flex-col items-center justify-center'>
               <h1 className='mt-4'>Kontakt</h1>
 

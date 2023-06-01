@@ -112,3 +112,8 @@
     background-size: 0 2px, 100% 2px;
   }
 }
+
+/* Custom CSS */
+.page-section {
+  min-height: calc(100vh - 56px);
+}

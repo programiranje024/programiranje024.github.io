@@ -14,7 +14,7 @@ export default function AboutUsPage() {
       <main className={classes.main}>
         <Header />
         <section className={classes.section}>
-          <div className='layout relative flex min-h-screen flex-col items-center justify-center py-12 text-center'>
+          <div className='layout page-section relative flex flex-col items-center justify-center py-12 text-center'>
             <div className='flex max-w-2xl flex-col items-center justify-center'>
               <h1 className='mt-4'>O nama</h1>
               <p className='mt-2 text-sm text-gray-800'>

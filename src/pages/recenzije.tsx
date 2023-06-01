@@ -16,7 +16,7 @@ export default function ReviewsPage() {
       <main>
         <Header />
         <section>
-          <div className='layout flex flex-col gap-4'>
+          <div className='layout page-section flex flex-col gap-4'>
             <div className='mt-4 flex flex-col gap-2'>
               <h1>Recenzije</h1>
               {reviews.length > 0 && (

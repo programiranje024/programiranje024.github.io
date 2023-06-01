@@ -20,7 +20,7 @@ export default function CoursesPage() {
       <main>
         <Header />
         <section>
-          <div className='layout relative flex min-h-screen flex-col items-center justify-center py-12 text-center'>
+          <div className='layout page-section relative flex flex-col items-center justify-center py-12 text-center'>
             <h1 className='mt-4 text-4xl'>Kursevi</h1>
             <p className='mt-2 text-sm text-gray-800'>
               Osim privatnih časova, nudimo i različite kurseve.
