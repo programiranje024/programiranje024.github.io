@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import { Turn } from 'hamburger-react';
 import Link from 'next/link';
-import { useEffect, useRef, useState } from 'react';
+import { useLayoutEffect, useRef, useState } from 'react';
 import { useMediaQuery } from 'usehooks-ts';
 
 import UnstyledLink from '@/components/links/UnstyledLink';
@@ -21,8 +21,9 @@ export default function Header() {
   const [isOpen, setOpen] = useState(false);
   const isMobile = useMediaQuery('(max-width: 768px)');
   const navRef = useRef<HTMLUListElement>(null);
+  const toggleContainerRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const nav = navRef.current;
     if (!nav) {
       return;
@@ -35,6 +36,20 @@ export default function Header() {
 
     nav.classList.add('hidden');
   }, [isMobile, isOpen, navRef]);
+
+  useLayoutEffect(() => {
+    const toggleContainer = toggleContainerRef.current;
+    if (!toggleContainer) {
+      return;
+    }
+
+    if (!isMobile) {
+      toggleContainer.classList.add('hidden');
+      return;
+    }
+
+    toggleContainer.classList.remove('hidden');
+  }, [isMobile, toggleContainerRef]);
 
   return (
     <header className='sticky top-0 z-50 bg-white shadow-md'>
@@ -55,13 +70,13 @@ export default function Header() {
           </UnstyledLink>
         </div>
         <nav>
-          <div className='md:hidden'>
+          <div ref={toggleContainerRef} className='hidden'>
             <Turn toggled={isOpen} toggle={setOpen} color='#000' />
           </div>
           <ul
             ref={navRef}
             className={clsx(
-              'flex flex-col items-center justify-between space-x-4 p-2 md:flex-row',
+              'flex hidden flex-col items-center justify-between space-x-4 p-2 sm:flex-row',
               {
                 'w-30 absolute right-0 top-14 rounded-bl-md bg-white shadow-md':
                   isOpen && isMobile,
