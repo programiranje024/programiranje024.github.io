@@ -6,7 +6,17 @@ import Layout from '@/components/layout/Layout';
 import Review, { ReviewProps } from '@/components/Review';
 import Seo from '@/components/Seo';
 
-const reviews: ReviewProps[] = [];
+const reviews: ReviewProps[] = [
+  {
+    name: 'Dušan Grba',
+    comment:
+      'Sve pohvale za predavača. Sve je bilo urađeno po dogovoru, a i cena je bila prihvatljiva. Bili su veoma ljubazni i strpljivi i odgovarali su na sva moja pitanja. Sve preporuke.',
+    rating: 5,
+    date: new Date('2023-06-02'),
+    serviceType: 'tutoring',
+    serviceName: 'PHP',
+  },
+];
 
 export default function ReviewsPage() {
   return (
