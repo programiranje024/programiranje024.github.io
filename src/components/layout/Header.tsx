@@ -7,7 +7,7 @@ import { useMediaQuery } from 'usehooks-ts';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import NextImage from '@/components/NextImage';
 
-import Subotica from '~/images/subotica.jpg';
+import Logo from '~/images/logo.png';
 
 const links = [
   { href: '/privatni-casovi', label: 'Privatni časovi' },
@@ -53,21 +53,18 @@ export default function Header() {
 
   return (
     <header className='sticky top-0 z-50 bg-white shadow-md'>
-      <div className='layout flex h-14 items-center justify-between'>
+      <div className='layout flex h-20 items-center justify-between'>
         <div className='flex items-center gap-4'>
           <Link href='/'>
             <NextImage
-              src={Subotica}
-              alt='Subotica'
-              width={80}
-              height={80}
+              src={Logo}
+              alt='Programiranje Subotica 024'
+              width={160}
+              height={160}
               className='grayscale hover:filter-none'
               useSkeleton
             />
           </Link>
-          <UnstyledLink href='/' className='font-bold hover:text-gray-600'>
-            Programiranje Subotica 024
-          </UnstyledLink>
         </div>
         <nav>
           <div ref={toggleContainerRef} className='hidden'>
