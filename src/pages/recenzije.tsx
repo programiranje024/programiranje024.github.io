@@ -16,6 +16,15 @@ const reviews: ReviewProps[] = [
     serviceType: 'tutoring',
     serviceName: 'PHP',
   },
+  {
+    name: 'Uroš Jeknić',
+    comment:
+      'Odličan predavač. Vidi se da ima praktičnog iskustva. Pomogao mi je da shvatim neke koncepte koje nisam mogao da shvatim na fakultetu. Definitivno vredi.',
+    rating: 5,
+    date: new Date('2023-06-04'),
+    serviceType: 'tutoring',
+    serviceName: 'TypeScript',
+  },
 ];
 
 export default function ReviewsPage() {
