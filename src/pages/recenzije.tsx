@@ -25,6 +25,15 @@ const reviews: ReviewProps[] = [
     serviceType: 'tutoring',
     serviceName: 'TypeScript',
   },
+  {
+    name: 'Nikola Ćuruvija',
+    comment:
+      'Sve preporuke za predavača! Izvanredna stručnost i profesionalnost. Brz i lak dogovor, kao i maksimalna posvećenost svom radu!',
+    rating: 5,
+    date: new Date('2023-07-04'),
+    serviceType: 'tutoring',
+    serviceName: 'PHP',
+  },
 ];
 
 export default function ReviewsPage() {
