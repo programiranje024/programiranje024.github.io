@@ -2,6 +2,7 @@ import NextImage from '@/components/NextImage';
 import TechRow from '@/components/TechRow';
 
 import Algorithms from '~/images/private-classes/algoritmi.png';
+import Angular from '~/images/private-classes/angular.png';
 import CLanguage from '~/images/private-classes/c.png';
 import CppLanguage from '~/images/private-classes/cpp.png';
 import CsLanguage from '~/images/private-classes/cs.png';
@@ -10,7 +11,6 @@ import Drupal from '~/images/private-classes/drupal.png';
 import ElixirLanguage from '~/images/private-classes/elixir.png';
 import Git from '~/images/private-classes/git.png';
 import JsLanguage from '~/images/private-classes/js.png';
-import Laravel from '~/images/private-classes/laravel.png';
 import Linux from '~/images/private-classes/linux.jpg';
 import NextJs from '~/images/private-classes/nextjs.webp';
 import NodeLanguage from '~/images/private-classes/node.png';
@@ -120,7 +120,7 @@ export default function Themes() {
         <TechRow title='React / React Native (JS)' src={React} alt='React' />
         <TechRow title='Next.js (JS)' src={NextJs} alt='Next.js' />
 
-        <TechRow title='Laravel (PHP)' src={Laravel} alt='Laravel' />
+        <TechRow title='Angular (TS)' src={Angular} alt='Angular' />
         <TechRow title='Strapi (JS)' src={Strapi} alt='Strapi' />
         <TechRow title='Phoenix (Elixir)' src={Phoenix} alt='Phoenix' />
       </div>
